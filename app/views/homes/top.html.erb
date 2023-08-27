@@ -1,0 +1,19 @@
+<div>
+  <%= flash[:notice] %>
+</div>
+
+top
+<h2>welcome to <i class="fa-solid fa-book">Bookers !!</i></h2>
+In <i class="fa-solid fa-book">Bookers</i>,<br>
+
+you can share and exchange your opinions , inpressions , and emotions
+
+about various books!
+
+
+
+
+<div>
+  <%= link_to "Log in", new_user_session_path, class: "btn btn-primary" %>
+  <%= link_to "Sign up", new_user_registration_path, class: "btn btn-success" %>
+</div>
